@@ -25,3 +25,9 @@ Tasks:
 
 2. Check how to use @RefreshScope at one place rather then at everyclass which have properties
 
+3. Use base application.yml which is being used by all other profile specific application's ymls
+
+4. Create one application yml file with [---] to segregate different env properties(dev,tst,prd)
+
+
+
