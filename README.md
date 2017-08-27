@@ -16,3 +16,5 @@ Server: http://localhost:8888/configclient/default
 http://localhost:8888/config-service/default
 
 Client: http://localhost:8000/
+
+PS. Config server gets updates right away, to update client it requires a refresh [curl -d{} http://localhost:8000/refresh]
