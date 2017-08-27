@@ -1,0 +1,5 @@
+#serve as base file for all applications
+  spring:
+    application:
+      test: testingBaseProperties
+    
