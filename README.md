@@ -18,3 +18,10 @@ http://localhost:8888/config-service/default
 Client: http://localhost:8000/
 
 PS. Config server gets updates right away, to update client it requires a refresh [curl -d{} http://localhost:8000/refresh]
+
+Tasks:
+
+1. Use rabbitmq and spring config cloud bus to avoid the refresh endpoint
+
+2. Check how to use @RefreshScope at one place rather then at everyclass which have properties
+
