@@ -1,5 +1,18 @@
-#serve as base file for all applications
-  spring:
-    application:
-      test: testingBaseProperties
-    
+configuration:  
+  projectName: configclient
+server:
+  port: 8000
+message:
+  greeting: Hello from the configuration! test
+  
+---
+spring:  
+  profiles: dev
+message:
+  greeting: Hello from the configuration! dev profile is active
+  
+---
+spring:  
+  profiles: prd
+message:
+  greeting: Hello from the configuration! prd profile is active
