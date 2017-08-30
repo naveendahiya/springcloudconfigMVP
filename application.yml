@@ -3,7 +3,7 @@ configuration:
 server:
   port: 8000
 message:
-  greeting: Hello from the configuration! test
+  greeting: Hello from the configuration!
   
 ---
 spring:  
